@@ -17,14 +17,21 @@ namespace Project3
             InitializeComponent();
         }
 
+        
+
         private void usernameBox_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void passwordBox_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void enterInfoBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Enter Button");
         }
     }
 }
